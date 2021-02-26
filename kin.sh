@@ -25,17 +25,6 @@ cat << EOF > /etc/source.yaml
   options:
     url: https://raw.githubusercontent.com/du5/free/master/sub.list
 
-# 网页模糊抓取
-- type: webfuzz
-  options:
-    url: https://merlinblog.xyz/wiki/freess.html
-
-# tg频道抓取
-- type: tgchannel
-  options:
-    channel: ssrList
-    num: 200
-
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
   options:
