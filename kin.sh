@@ -25,11 +25,6 @@ cat << EOF > /etc/source.yaml
   options:
     url: https://raw.githubusercontent.com/du5/free/master/sub.list
 
-# 订阅链接
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
-
 # 网页模糊抓取
 - type: webfuzz
   options:
