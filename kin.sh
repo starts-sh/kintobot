@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# add config.yaml
+# create config
 
 cat << EOF > /etc/config.yaml
 #domain: example.com
@@ -56,3 +56,5 @@ cat << EOF > /etc/source.yaml
   options:
 EOF
 
+#run proxypool
+/usr/bin/proxypool -c /etc/config.yaml
